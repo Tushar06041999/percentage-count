@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    font-style: italic;
+}
+
+.container{
+    border:1px solid gray;
+    border-radius: 16px;
+    height:400px;
+    width:350px;
+    margin:120px auto;
+}
+input:focus{
+    outline:none;
+}
+#Discount{
+margin-left:20px;
+margin-top: 20px;
+}
+#orginal{
+    margin-left:40px;
+    margin-top: 20px;
+}
+#DiscountAmmount{
+margin-left: 8px;
+margin-top: 20px;
+}
+#Totalprice{
+margin-left: 0px;
+margin-top: 20px;
+}
+
+#btn,#btn2{
+    margin-top:25px;
+    width:80px;
+    height:32px;
+    border-radius:16px;
+    border:none;
+    background-color: bisque;
+    
+}
+.footer{
+    text-align: center;
+}
+
+#btn,#btn2:hover{
+    background-color: brown;
+}
